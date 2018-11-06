@@ -8,7 +8,7 @@ import { HttpClient, HttpHeaders } from '@angular/common/http';
 })
 export class QtnService {
 
-  private questionsUrl = 'https://salty-crag-56526.herokuapp.com';
+  private questionsUrl = 'https://serene-wildwood-19977.herokuapp.com/';
 
   getQtns(): Observable<Question[]>{
      
