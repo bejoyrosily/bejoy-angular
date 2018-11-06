@@ -9,6 +9,7 @@ import { QtnEditComponent } from './qtn-edit/qtn-edit.component';
 import { EditWindowComponent } from './edit-window/edit-window.component';
 
 const routes : Routes = [
+  {path: '', redirectTo:'/api/questions', pathMatch: 'full'}
   {path: 'api/questions', component: QtnsComponent},
   {path: 'api/questions/add', component: AddQtnComponent},
   {path: 'api/questions/delete', component: DeleteQtnComponent},
