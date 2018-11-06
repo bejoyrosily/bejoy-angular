@@ -22,4 +22,7 @@ export class QtnsComponent implements OnInit {
       .subscribe(qtns => this.qtns = qtns);
   };
 
+  onClick():void{
+    alert("Response Saved Successfully");
+  }
 }
