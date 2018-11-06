@@ -1,0 +1,22 @@
+
+<div *ngFor="let qtn of qtns">
+  <div>
+    <h4>{{qtn.question}}</h4>
+   </div>
+<div class="checkbox">
+  <label><input type="checkbox" value="">{{qtn.option1}}</label>
+</div>
+<div class="checkbox">
+  <label><input type="checkbox" value="">{{qtn.option2}}</label>
+</div>
+<div class="checkbox">
+  <label><input type="checkbox" value="">{{qtn.option3}}</label>
+</div>
+<div class="checkbox">
+    <label><input type="checkbox" value="">{{qtn.option4}}</label>
+</div>
+<br>
+</div>
+<div>
+    <button class="btn btn-primary" type="submit" (click)="onClick()">SUBMIT</button>
+</div>

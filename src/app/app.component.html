@@ -1,0 +1,21 @@
+<nav class="navbar navbar-expand-sm bg-primary navbar-dark">
+  <ul class="navbar-nav">
+    <h2>{{title | uppercase }}</h2>
+  </ul>
+</nav>
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-3 col-lg-2">
+      <!-- <nav class="navbar navbar-default navbar-fixed-side"> -->
+        <!-- normal collapsible navbar markup -->
+        <app-sidebar></app-sidebar>
+      <!-- </nav> -->
+    </div>
+    <div class="col-sm-9 col-lg-10">
+      <!-- <app-qtns></app-qtns> -->
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+</div>
+

@@ -1,0 +1,40 @@
+<div>
+    <div>
+      <br>
+      <label>
+        Question :
+        <input [(ngModel)] = "qtn.question">
+      </label>
+    </div>
+  
+    <div>
+      <label>
+        Option 1 :
+        <input [(ngModel)] = "qtn.option1" >
+      </label>
+    </div>
+  
+    <div>
+      <label>
+        Option 2 :
+        <input [(ngModel)] = "qtn.option2" >
+      </label>
+    </div>
+  
+    <div>
+      <label>
+        Option 3 :
+        <input [(ngModel)] = "qtn.option3" >
+      </label>
+    </div>
+  
+    <div>
+      <label>
+        Option 4 :
+        <input [(ngModel)] = "qtn.option4" >
+      </label>
+    </div>
+  </div>
+  <div>
+    <button class="btn btn-primary" type="submit" (click)="onClick()">ADD</button>
+  </div>

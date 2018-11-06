@@ -1,0 +1,8 @@
+<div class="panel panel-default">
+    <div class="panel-heading" *ngFor="let qtn of qtns">
+        <div class="input-group">
+          <h5>{{qtn.question}}</h5> 
+          <button class="btn btn-default btn-sm pull-right">
+            <a routerLink="/api/questions/edit/{{qtn._id}}">EDIT</a> 
+          </button>
+        </div>

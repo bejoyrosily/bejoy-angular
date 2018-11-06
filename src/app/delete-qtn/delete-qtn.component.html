@@ -1,0 +1,26 @@
+ <div class="panel panel-default">
+    <div class="panel-heading" *ngFor="let qtn of qtns" (click)="deleteQtn(qtn)">
+        <div class="input-group">
+          <h5>{{qtn.question}}</h5> 
+          <button class="btn btn-default btn-sm pull-right">
+            <a routerLink="/api/questions/delete/{{qtn._id}}">DELETE</a> 
+          </button>
+        </div>
+    <!-- </div>
+     <ul>
+      <li *ngFor="let qtn of qtns" (click)="deleteQtn(qtn)">
+        <span><a>{{qtn.question}}</a></span>
+      </li>
+    </ul>
+  </div> -->
+     
+      
+       
+              
+              
+         
+       
+      
+ 
+
+  
